@@ -1,0 +1,1 @@
+export const capitialize = (str) => str.charAt(0).toUpperCase() + str.slice(1); //this will capitalize the first letter of the word
