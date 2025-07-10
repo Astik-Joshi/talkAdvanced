@@ -19,7 +19,7 @@ import toast from "react-hot-toast";
 import ChatLoader from "../components/ChatLoader";
 import CallButton from "../components/CallButton";
 
-const STREAM_API_KEY = import.meta.env.VITE_STREAM_API_KEY;
+const STREAM_API_KEY = import.meta.env.VITE_STEAM_API_KEY;
 
 const ChatPage = () => {
   const { id: targetUserId } = useParams();
